@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+
+}
+#main{
+    height: 100vh;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(backimg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(1px); */
+
+}
+#page1 img{
+    height: 100vh;
+    width: 100%;
+}
+#login-page{
+    height: 50vh;
+    width: 20%;
+    /* background-color: rgb(218, 186, 30); */
+    /* display: flex; */
+   
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+
+}
+#login-page h1{
+    padding-left: 140px;
+
+    color: white;
+    color: rgb(64, 241, 138);
+  text-shadow: 1px 1px 2px rgb(64, 241, 138) ;
+margin-bottom: 20px;
+}
+#login-page h3{
+    color: rgb(64, 241, 138);
+  text-shadow: 1px 1px 2px rgb(64, 241, 138) ;
+
+    margin-top: 10px;
+  
+}
+#elem{
+    padding-left: 60px;
+    /* padding-top: 100px; */
+}
+#login-page input{
+    border-radius: 8px;
+   height: 30px;
+   width: 240px;
+   margin-top: 30px;
+   background-color: transparent;
+   border: 2px solid rgb(151, 151, 151);
+   color: aqua;
+   font-size: 20px;
+   padding-left: 10px;
+   border-top:none;
+   border-left: none;
+   border-right: none;
+   
+
+
+}
+#login-page input::placeholder{
+color:rgb(158, 158, 158);
+padding-left: 10px;
+font-size: 14px;
+border: none;
+border-top:none;
+   border-left: none;
+   border-right: none;
+}
+#login-page button{
+    height: 45px;
+    width: 130px;
+    background-color: rgb(64, 241, 138);
+color: white;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left:  55px;
+    font-size: 30px;
+
+
+    
+}
